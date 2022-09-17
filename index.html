@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+	<title>FLIXIA</title>
+
+	
+</head>
+<body>
+	<div class="hero">
+		<nav class="navbar ">
+		  <div class="container-fluid d-flex ">
+		    <a class="navbar-brand logo"><img src="flixialogo.PNG"></a>
+		    <div class="d-flex logreg">
+		    	<a href="/" class="reg" data-bs-toggle="modal" data-bs-target="#signupModal"> Register</a>
+		    	<a href="/" class="log" data-bs-toggle="modal" data-bs-target="#loginModal"> Login</a>
+		    </div>
+		  </div>
+		</nav>
+
+
+		<div class="herotext">
+			<div class="htext">
+				<h2>
+					STREAM ANY MUSIC FROM ANYWHERE
+				</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco.</p>
+			</div>
+
+			<div class="heroImg">
+				<img src="heroimg.jpg" >
+			</div>
+
+		</div>
+	</div>
+
+
+<!-- ======================= 	WHAT WE DO =================== -->
+	<div class="details">
+		<h3> WHAT WE DO</h3>
+
+		<div class="detailsCont ">
+			<div>
+				<img src="heroimg.jpg">
+
+				<div>
+					<h4> Live Stream</h4>
+				</div>
+			</div>
+
+			<div>
+				<img src="heroimg.jpg">
+
+				<div>
+					<h4> Viable Download</h4>
+				</div>
+			</div>
+
+			<div>
+				<img src="heroimg.jpg">
+
+				<div>
+					<h4> Concert Tickets</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+<!--  =================== WHAT WE OFFER ========================= -->
+<div class="details secdets-cont">
+		<h3> WHAT WE OFFER</h3>
+
+		<div class="detailsCont secdets ">
+			<div>
+				<img src="heroimg.jpg">
+
+				<div>
+					<h4> Low Premium Plan</h4>
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et</p>
+				</div>
+			</div>
+
+			<div>
+				<img src="heroimg.jpg">
+
+				<div>
+					<h4> Easy Streaming</h4>
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et</p>
+				</div>
+			</div>
+
+			<div>
+				<img src="heroimg.jpg">
+
+				<div>
+					<h4> Concert Tickets</h4>
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  ==================================== MODALS ========================================== -->
+
+
+<!--Signup Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="signupModalLabel">Signup</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <!--  FORM STARTS HERE -->
+      	<form>
+		    <div class="modal-body my-mod">
+		        <div>
+		        	<input type="email" name="email" placeholder="Enter Email">
+		        </div>
+		        <div>
+		        	<input type="password" name="password" placeholder="Enter password">
+		        </div>
+		        
+		        <div>
+		        	<input type="password" name="confirmpassword" placeholder="confirm password">
+		        </div>
+		    </div>
+		    <div class="modal-footer">
+		       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		       <button type="button" class="btn btn-primary">Signup</button>
+		    </div>
+	  	</form>
+	  <!-- sign up form ends here -->
+    </div>
+  </div>
+</div>
+
+
+<!--login Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="loginModalLabel">Login</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <!--  FORM STARTS HERE -->
+      	<form>
+		    <div class="modal-body my-mod">
+		        <div>
+		        	<input type="email" name="email" placeholder="Enter Email">
+		        </div>
+		        <div>
+		        	<input type="password" name="password" placeholder="Enter password">
+		        </div>
+		        
+		    </div>
+		    <div class="modal-footer">
+		       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		       <button type="button" class="btn btn-primary">Login</button>
+		    </div>
+	  	</form>
+	  <!-- sign up form ends here -->
+    </div>
+  </div>
+</div>
+
+
+<footer class="text-center">
+	@copyrights reserved
+</footer>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+
+</body>
+</html>

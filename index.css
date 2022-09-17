@@ -1,0 +1,154 @@
+	.navbar {
+		background: #ECECEC;
+	}
+	.logo img{
+		width: 30%;
+	}
+	.logreg a{
+		border:  1px solid #13203C;
+		border-radius: 5px;
+		padding: 5px 15px;
+		margin-right: 25px;
+		text-decoration: none;
+		font-weight: bold;
+		letter-spacing: 2px;
+	}
+
+	.logreg a:hover{
+		color: #FBBC47;
+	}
+
+		.logreg .reg{
+			background: #13203C;
+			color:  white;
+
+		}
+
+		.log{
+			color: #13203C;
+		}
+
+		.herotext{
+			display: flex;
+			padding:  30px 90px
+		}
+
+		.heroImg img{
+			width: 70%;
+		}
+
+		.htext{
+			width: 70%;
+			/*border:  1px solid red;*/
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		.htext h2{
+			color:  #13203C;
+			font-weight: 700;
+		}
+
+		.htext p{
+			line-height: 25px;
+			font-size: 18px;
+			text-align: justify;
+		}
+
+		.details{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.details h3{
+			text-align: center;
+			border-bottom:  2px solid #FBBC47;
+			padding:  10px 0;
+			color: #13203C;
+			font-weight: 700;
+			display: inline-block;
+			
+		}
+
+ 		.detailsCont {
+ 			margin: 3% 15%;
+ 			display: flex;
+ 			justify-content: space-around;
+
+ 		}
+
+ 		.detailsCont>div{
+ 			width:  25%;
+ 			border:  1px solid #13203C;
+ 			border-radius: 8px;
+ 			transition: .5s;
+ 		}
+
+ 		.detailsCont>div:hover{
+ 			box-shadow: 5px 5px 5px grey;
+ 			cursor: pointer;
+ 		}
+
+ 		.detailsCont>div div{
+ 			text-align: center;
+ 		}
+		.detailsCont img{
+			width:  100%;
+		}
+
+		.my-mod div{
+			margin-bottom: 15px;
+		}
+
+		.my-mod input{
+			width: 100%;
+			background: inherit;
+			border-radius: 5px;
+			padding:  10px;
+			outline: none;
+			border: 1px solid grey;
+		}
+
+		.secdets>div{
+			padding: 0 5px;
+		}
+
+		.secdets-cont{
+			margin-top: 40px;
+		}
+
+		footer{
+			background: #13203C;
+			color: #FBBC47;
+			font-weight: bold;
+			font-size: 18px;
+			padding: 20px 0;
+			margin-top: 20px;
+		}
+
+
+		@media screen and (max-width: 600px) {
+		    .herotext{
+		    	display: flex;
+		    	flex-direction: column;
+		    	align-items: center;	
+		    	padding: 30px 0;
+		    }
+
+		    .heroImg img{
+				width: 100%;
+				
+			}
+			.detailsCont{
+				display: block;
+			}
+
+			.detailsCont>div{
+	 			width:  100%;
+	 			margin-bottom: 20px;
+	 		}
+			
+		  }
